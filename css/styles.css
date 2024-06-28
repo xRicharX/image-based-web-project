@@ -1,0 +1,83 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 50px;
+    color: #1545da;
+    font-size: 15px;
+}
+
+
+/* Basic styles for the offer section */
+.offer-section {
+    background-color: #ced6f0; /* Light grey background */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.offer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.offer-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0e2058;
+}
+
+.offer-content p {
+    font-size: 0.8rem;
+    color: #898989;
+    margin-bottom: 30px;
+}
+
+.offer-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.offer-item {
+    flex: 1 0 calc(33.33% - 40px); /* Alineación en tres columnas con margen */
+    margin: 20px;
+    text-align: center;
+}
+
+.offer-item img {
+    width: 100px; /* Tamaño del icono */
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.offer-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #323967; /* Color del texto */
+}
+
+.offer-item p {
+    font-size: 1rem;
+    color: #888;
+}
+
+#icono:hover {
+    color: blue; /* Color que deseas al pasar el mouse */
+}
